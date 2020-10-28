@@ -1,0 +1,7 @@
+version: '3.2'
+services:
+  helloworld:
+    container_name: sampleapp
+    build: .
+    ports:
+      - "9091:9091"
