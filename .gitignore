@@ -1,1 +1,6 @@
 prometheus_grafana/sampleapp/target
+trykafka/backend/
+trykafka/lib/
+trykafka/project/
+trykafka/target/
+trykafka/.*

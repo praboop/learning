@@ -20,7 +20,7 @@ rule_files:
 
 scrape_configs:
   # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
-  - job_name: 'reporter'
+  - job_name: 'sqm'
 
     scrape_interval: 10s
 
@@ -29,5 +29,5 @@ scrape_configs:
 
     static_configs:
     - targets: 
-      - reporter:8080
+      - 192.168.29.196:8080
 
