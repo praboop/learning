@@ -1,0 +1,4 @@
+[warn] /Users/praboo_p/git/github/learning/newtrykafka/project/Dependencies.scala:213:91: Reference to uninitialized value log4jEmbeddedKafka
+[warn]     Seq(circeCore1, circeGeneric1, circeParser1, circeExtra1, kafkaClients, kafkaStreams, log4jEmbeddedKafka)
+[warn]                                                                                           ^
+[warn] one warning found
